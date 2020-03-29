@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import SearchForm from "./SearchForm";
-import EmployeeCard from "./EmployeeCard";
-import API from "../utilities/API";
+import SearchForm from "../SearchForm/SearchForm";
+import EmployeeCard from "../EmployeeCard/EmployeeCard";
+import API from "/Users/laurenminton/git/Employee-Directory-React/employee-directory/src/utilities/API.js"
 
 // const MaxResults = 10;
 
@@ -37,7 +37,6 @@ class SearchResultContainer extends Component {
   }
 
   filterEmployees = (searchkey) => {
-    console.log("***in Filter*******");
     console.log(searchkey);
     console.log(this.state.result);
     
@@ -45,11 +44,7 @@ class SearchResultContainer extends Component {
 
     this.setState({
       result:filterResult
-      
     })
-
-   
- 
   }
 
 
@@ -58,7 +53,6 @@ class SearchResultContainer extends Component {
     event.preventDefault();
     const value = event.target.value;
     const name = event.target.name;
-    console.log("**********");
     console.log(value);
     console.log(name);
 
@@ -78,7 +72,6 @@ class SearchResultContainer extends Component {
     console.log(event);
     const value = event.target.value;
     const name = event.target.name;
-    console.log("**********");
     console.log(value);
     console.log(name);
 
