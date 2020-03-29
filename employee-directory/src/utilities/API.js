@@ -1,6 +1,5 @@
 import axios from "axios";
 
-
 const ApiCall = "https://randomuser.me/api/?results=50&nat=us";
 
 

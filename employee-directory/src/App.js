@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import SearchContianer from "./components/SearchContainer";
 
 function App() {
