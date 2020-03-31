@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import SearchForm from "../SearchForm/SearchForm";
 import EmployeeCard from "../EmployeeCard/EmployeeCard";
-import API from "/Users/laurenminton/git/Employee-Directory-React/employee-directory/src/utilities/API.js"
+import API from "../../utilities/API"
 
 // const MaxResults = 10;
 
